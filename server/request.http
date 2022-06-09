@@ -1,0 +1,27 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "thanh",
+    "password": "thanh"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "thanh",
+    "password": "thanh"
+}
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+    "title": "this is new post",
+    "description": "123456",
+    "url": "google.com",
+    "status": "LEARNING"
+}
